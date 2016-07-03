@@ -11,7 +11,7 @@ import UIKit
 class MainListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var mainTableView: UITableView!
-    var list = [];
+    var list = ["hoge", "fuga"];
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,11 +24,13 @@ class MainListViewController: UIViewController, UITableViewDelegate, UITableView
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0;
+        return self.list.count;
     }
 
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("TodoListItem")! as UITableViewCell;
+        let row = self.list[indexPath.row];
+        cell.textLabel?.text = row;
         return cell;
     }
 }
