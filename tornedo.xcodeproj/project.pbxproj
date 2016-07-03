@@ -15,6 +15,7 @@
 		7C829F761D29888B00F66A0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C829F741D29888B00F66A0B /* LaunchScreen.storyboard */; };
 		7C829F811D29888B00F66A0B /* tornedoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C829F801D29888B00F66A0B /* tornedoTests.swift */; };
 		7C829F8C1D29888B00F66A0B /* tornedoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C829F8B1D29888B00F66A0B /* tornedoUITests.swift */; };
+		7C829F9A1D298CEE00F66A0B /* TodoListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C829F991D298CEE00F66A0B /* TodoListItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		7C829F871D29888B00F66A0B /* tornedoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tornedoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C829F8B1D29888B00F66A0B /* tornedoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tornedoUITests.swift; sourceTree = "<group>"; };
 		7C829F8D1D29888B00F66A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C829F991D298CEE00F66A0B /* TodoListItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoListItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				7C829F741D29888B00F66A0B /* LaunchScreen.storyboard */,
 				7C829F771D29888B00F66A0B /* Info.plist */,
 				7C829F6F1D29888B00F66A0B /* tornedo.xcdatamodeld */,
+				7C829F991D298CEE00F66A0B /* TodoListItemTableViewCell.swift */,
 			);
 			path = tornedo;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				7C829F6B1D29888B00F66A0B /* MainListViewController.swift in Sources */,
 				7C829F711D29888B00F66A0B /* tornedo.xcdatamodeld in Sources */,
+				7C829F9A1D298CEE00F66A0B /* TodoListItemTableViewCell.swift in Sources */,
 				7C829F691D29888B00F66A0B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
